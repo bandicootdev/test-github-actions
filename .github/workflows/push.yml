@@ -1,5 +1,6 @@
 on: push
-jobs: deploy
+name: deploy
+jobs:
   deploy:
     name: deploy to cluster
     runs-on: ubuntu-latest
